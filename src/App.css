@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -23,7 +24,38 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.rainbow-text {
+  display: inline-block;
+}
 
+.rainbow-text:nth-child(1) {
+  color: red;
+}
+
+.rainbow-text:nth-child(2) {
+  color: rgb(81, 5, 53);
+}
+
+.rainbow-text:nth-child(3) {
+  color: rgb(241, 241, 93);
+}
+
+.rainbow-text:nth-child(4) {
+  color: green;
+}
+
+.rainbow-text:nth-child(5) {
+  color: blue;
+}
+
+.rainbow-text:nth-child(6) {
+  color: indigo;
+}
+
+.rainbow-text:nth-child(7) {
+  color: black
+  ;
+}
 .App-link {
   color: #61dafb;
 }
